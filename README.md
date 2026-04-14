@@ -45,7 +45,7 @@ Four interactive charts:
 - **Return distribution** — Histogram of daily returns + Q-Q plot to detect fat tails
 - **Seasonality** — Average return by month and day of week
 
-### Step 4 — Correlation Analysis *(Interactive Heatmap)*
+### Step 4 — Correlation Analysis
 Interactive heatmap of all numeric features. Hover any cell for the exact correlation value, zoom in to read closely.
 
 > **Key insight:** `MA_20`, `MA_50`, `MA_200`, `EMA_12`, `EMA_26` are all highly correlated with `Close`. Using ratios instead of raw values (done in Step 5) reduces multicollinearity significantly.
@@ -95,7 +95,7 @@ target = 0  otherwise
 ### Step 11 — Feature Importance 
 Horizontal bar charts for Random Forest and XGBoost. Hover any bar for the exact importance score. Typically, lag features, rolling returns, and ratio-based features rank highest.
 
-### Step 12 — Backtest *(Interactive Plotly)*
+### Step 12 — Backtest
 Simulates a simple trading strategy: go long when the model predicts an up day, stay out otherwise. Compares cumulative return against a buy-and-hold benchmark.
 
 Reports:
