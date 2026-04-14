@@ -1,7 +1,7 @@
 COCA COLA 
 Stock Market Analysis & ML Prediction
 
-A complete end-to-end Python pipeline for analysing stock market data with technical indicators and predicting price direction using machine learning. All charts are fully interactive (Plotly).
+A complete end-to-end Python pipeline for analysing stock market data with technical indicators and predicting price direction using machine learning.
 
 ---
 
@@ -29,13 +29,6 @@ The dataset contains **25 columns** covering price, volume, momentum, volatility
 
 ---
 
-Installation
-
-```bash
-pip install pandas numpy scikit-learn xgboost plotly scipy
-```
-
----
 
 Pipeline — Step by Step
 
